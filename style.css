@@ -1,9 +1,73 @@
-h1 {
-    font-size: 95px;
-    font-family: 'Poppins, Courier New', Courier, monospace;
-    line-height: 140px;
-    font-weight: 750;
-    font-style: normal;
-    color: red;
+.container {
+     max-width: 900px;
+     margin: 0 auto;
+}
 
+body {
+    font-family:'Poppins', 'Courier New', Courier, monospace;
+}
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),  url("./images/IMG_9713.JPG ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 200px 0px ;
+    text-align: center;
+}
+header h1 { 
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 1;
+    margin: 0 0 30px;
+
+}
+
+header h2 {
+          font: weight 450;
+          font-size: 45px;
+          line-height: 1.5;
+          margin: 0;
+}
+
+header h3 {
+    font-weight: 800;
+    line-height: 1.5;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+header a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 16px 30px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+
+@media( max-width: 900px ) {
+    header{
+        padding: 60px 0;
+    }
+    
+    header h1{
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 25px;
+    }
+    header h3  {
+        font-size: 12px;
+    }
 }
