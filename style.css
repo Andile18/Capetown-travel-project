@@ -1,19 +1,31 @@
 .container {
-     max-width: 900px;
+     max-width: 1000px;
      margin: 0 auto;
+}
+
+
+.grid { 
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    
+  
 }
 
 body {
     font-family:'Poppins', 'Courier New', Courier, monospace;
 }
 
+section {
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),  url("./images/IMG_9713.JPG ");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),  url("./images/tableM.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding: 200px 0px ;
+    padding: 80px 0px;
     text-align: center;
 }
 header h1 { 
@@ -54,6 +66,46 @@ header a {
     display: inline-block;
 }
 
+
+footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 100px 10;
+    background-image: linear-gradient(rgba(30, 22, 60, 0.9), rgba(30, 22, 60, 0.8)), url('./images/Bosjes3.jpg') ;
+}
+
+
+footer h3 { 
+           font-weight: 700px;
+           font-size: 20px;
+           line-height: 20px;
+           
+
+}
+
+footer p {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-left: 20px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    opacity: 0.8;
+}
 
 @media( max-width: 900px ) {
     header{
