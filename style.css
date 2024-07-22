@@ -169,15 +169,12 @@ header a {
     margin-top: 32px;
     display: inline-block;
 }
-
-
 footer {
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
     color:white;
-  
-    background-image: linear-gradient(rgba(30, 22, 60, 0.9), rgba(30, 22, 60, 0.8)), url('./images/Bosjes3.jpg') ;
-}
+     background-image: linear-gradient(rgba(30, 22, 60, 0.9), rgba(30, 22, 60, 0.8)), url('./images/Bosjes3.jpg') ;
+}  
 
 
 footer h3 { 
@@ -241,4 +238,6 @@ footer a {
     .card-header img {
         display: none;
     }
+
+   
 }
